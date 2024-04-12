@@ -31,7 +31,7 @@ const Index = () => {
       <Heading mb={4}>Todo App</Heading>
       <Flex mb={4}>
         <Input value={input} onChange={(e) => setInput(e.target.value)} placeholder="Add a new task" mr={2} />
-        <Button onClick={handleAddTask} leftIcon={<FaPlus />} colorScheme="green">
+        <Button onClick={handleAddTask} leftIcon={<FaPlus />} colorScheme="purple">
           Add Task
         </Button>
       </Flex>
